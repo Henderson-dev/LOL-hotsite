@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOL Surprise!</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">    
+</head>
+<body>
+
+<!-- Figma
+https://www.figma.com/file/PvEb7WopbW1hkiqQHJoCiq/LOL001_site_01_fc?node-id=0%3A2
+
+https://www.ninjaunits.com/converters/pixels/pixels-rem/
+
+
+https://css-tricks.com/adding-stroke-to-web-text/
+https://css-tricks.com/almanac/properties/t/text-stroke/
+
+Gerador de sombra tipo stroke
+https://owumaro.github.io/text-stroke-generator/
+
+
+-->
+
+<div id="loader">
+    <img src="assets/images/logo_lol.png" alt="">
+    <img src="assets/images/carregando.gif" class="init-loader" alt="">
+</div>
+
+<!-- area para aplicar o scroll com animacoes -->
+<div data-scroll-container class="data-scroll-area">
+
+<header id="topo">
+    <div class="box-topo">
+        <i></i>
+        <div class="row-menu">
+            <div data-scroll data-scroll-speed="3" class="logo">
+                <img src="assets/images/logo_lol.png" alt="">
+            </div>
+            <nav>
+                <input type="checkbox" id="menu">
+                <label for="menu" class="menu">
+                    <div class="hamburger hamburger--squeeze">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </label>             
+                <ul>
+                    <li><a href="#m-diversao">Box</a></li>
+                    <li><a href="#m-duvidas">Dúvidas</a></li>
+                    <li><a href="#m-contato">Contato</a></li>                    
+                    <li><a href="#m-diversao">Peça a sua!</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    <div class="separador">
+        <svg width="1918" height="193" viewBox="0 0 1918 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.22412 108L752.507 18.0444L1534.8 86.3556L1918 0V108V116V193H0V108.267V108H2.22412Z" fill="white"/>
+        </svg>         
+    </div>
+</header>
+
+<section id="content-header">
+    <div class="box-title" data-scroll data-scroll-speed="1">
+        <h2>
+            Uma<br>
+            Experiência<br>
+            Única<br>
+        </h2>
+        <p>
+            A <b>Queen Bee</b> está te chamando para uma festa! O L.O.L Surprise! Challenge é um desafio em 7 etapas, para você brincar com suas filhas!
+        </p>
+    </div>
+    <div class="box-image" data-scroll data-scroll-speed="2">
+        <img src="assets/images/box_lol_topo.png" alt="">
+    </div>
+</section>
+
+
+<section id="m-conheca">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <img src="assets/images/lol_dobra_01.png" data-scroll data-scroll-speed="1" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 box-conteudo">
+                <h3>Conheça a LOL Surprise Experience!</h3>
+                <h2>
+                    Glitter On!
+                </h2>
+                <p>
+                    São 7 atividades para que envolvem pintar, colorir, cozinhar, caçar tesouro, estourar balões e muito mais! Para cada uma, há itens exclusivos que serão usados na conclusão das etapas ou serão prêmios para os pequenos depois que concluírem as tarefas. Tudo que for preparado vai fazer parte de uma festa que conta com uma convidada especial.
+                </p>
+                <p>
+                    A brincadeira pode ser feita na sua casa, onde e quando os vocês quiserem. Prepare o seu brilho e venha arrasar no nosso Clube do Brilho!!!!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="m-diversao">
+    <div class="separador">
+        <svg width="1918" height="233" viewBox="0 0 1918 233" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1918 0H0V132H53.2809L0 132.2L752.507 216.2L1534.8 152.6L1918 233V132V125V0Z" fill="white"/>
+        </svg>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 box-conteudo">
+                <h3>Confira o box exclusivo</h3>
+                <h2>
+                    We Run the World!
+                </h2>
+                <p>
+                    Para participar do desafio, você recebe uma caixa com as instruções de cada etapa e os itens necessários para as atividades. São objetos temáticos e exclusivos do mundo de L.O.L, que vão despertar o lado mais criativo dos seus pequenos!
+                </p>                
+                <img src="assets/images/lol_dobra_02.png" data-scroll data-scroll-speed="2" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="bloco-venda">
+                    <img src="assets/images/lol_imagem_box.png" alt="">
+                    <h2>Box LOL! Surprise<br>Challenge</h2>
+                    <ul>               
+                        <li><b>Uma boneca da linha L.O.L Surprise Lils</b> (Pet ou Sister com 5 itens surpresa);</li>
+                        <li><b>Sete folhetos</b> com as instruções de cada etapa do desafio;</li>
+                        <li><b>Duas camisetas</b> temáticas de L.O.L;</li>
+                        <li><b>Três tubos de tinta;</b></li>
+                        <li><b>Dois pares de luvas</b> de plástico;</li>
+                        <li><b>Dez elásticos</b> de borracha;</li>
+                        <li><b>Uma saia tutu;</b></li>
+                        <li><b>Um kit de colorir;</b></li>
+                        <li><b>Uma pulseira de neon;</b></li>
+                        <li><b>Dez balões;</b></li>
+                        <li><b>Seis dicas impressas</b> (caça ao tesouro);</li>
+                        <li><b>Um batom;</b></li>
+                        <li><b>Um gloss;</b></li>
+                        <li><b>Um esmalte;</b></li>
+                        <li><b>Pacote de mistura para cupcake.</b></li>
+                    </ul>
+                    <a href="#">Peça a sua! </a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 box-camisetas">
+                <!-- botão que chama o modal dos detalhes da camiseta -->
+                <!-- <a href="#medidas" data-toggle="modal" data-target="#modalmedidas">Medidas das camisetas</a> -->
+                <span>
+                    *Todos os produtos utilizados são atóxicos e anti-alérgicos. Imagens do kit meramente ilustrativas e sujeitas a ajustes menores.
+                </span> 
+            </div>
+        </div>
+    </div>
+    <div class="separador-b">
+        <svg width="1918" height="677" viewBox="0 0 1918 677" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1911.49 101L1165.49 16.9556L383.203 81.1444L0 0V101V109V677H1918V101.733V101H1911.49Z" fill="white"/>
+        </svg>
+    </div>    
+</section>
+
+
+<!-- Modal de medidas da camiseta -->
+<div class="modal fade show" id="modalmedidas" tabindex="-1" role="dialog" aria-labelledby="modalmedidas" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-full" role="document">
+      
+      <div class="modal-content">
+        
+        <div class="modal-header">
+            <i></i>
+  
+          <img src="assets/images/sigam-me_os_bons_walk_run_chapolin.png" class="img-fluid logo-modal">
+  
+          <h5>Medidas das camisetas</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        
+        <div class="modal-body">
+          <div class="container">
+  
+              <div class="row card-etapa-m">
+                  
+                  <div class="col-lg-12 col-md-12 col-sm-12 m-data">
+  
+                      <div class="camisa">
+                          
+                          <div class="row">
+                              
+                              <div class="col-lg-6 col-md-62 col-sm-12">
+  
+                                  <div class="camisa-img">
+                                      <img src="assets/images/tamanho_camisa_corrida.png" class="img-fluid">
+                                  </div>
+                                  
+                              </div>
+  
+                              <div class="col-lg-6 col-md-62 col-sm-12">
+                          
+                                  <div class="camisa-info">
+  
+                                      <div class="camisa-info-item">
+  
+                                          <h3>Adulto</h3>
+  
+                                          <table>
+                                              <thead>
+                                                  <tr>
+                                                      <th></th>
+                                                      <th><strong>BL</strong>feminina</th>
+                                                      <th><strong>P</strong>unisex</th>
+                                                      <th><strong>M</strong>unisex</th>
+                                                      <th><strong>G</strong>unisex</th>
+                                                      <th><strong>GG</strong>unisex</th>
+                                                  </tr>
+                                              </thead>
+  
+                                              <tbody>
+                                                  <tr>
+                                                      <td><span>A</span></td>
+                                                      <td>46</td>
+                                                      <td>49</td>
+                                                      <td>51</td>
+                                                      <td>53</td>
+                                                      <td>55</td>
+                                                  </tr>
+  
+                                                  <tr>
+                                                      <td><span>B</span></td>
+                                                      <td>60</td>
+                                                      <td>66</td>
+                                                      <td>68</td>
+                                                      <td>70</td>
+                                                      <td>72</td>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                      </div>
+  
+                                      <div class="camisa-info-item">
+  
+                                          <h3>Infantil</h3>
+  
+                                          <table>
+                                              <thead>
+                                                  <tr>
+                                                      <th></th>
+                                                      <th><strong>6</strong>infantil</th>
+                                                      <th><strong>8</strong>infantil</th>
+                                                      <th><strong>10</strong>infantil</th>
+                                                      <th><strong>12</strong>infantil</th>
+                                                  </tr>
+                                              </thead>
+  
+                                              <tbody>
+                                                  <tr>
+                                                      <td><span>A</span></td>
+                                                      <td>38</td>
+                                                      <td>40</td>
+                                                      <td>42</td>
+                                                      <td>44</td>
+                                                  </tr>
+  
+                                                  <tr>
+                                                      <td><span>B</span></td>
+                                                      <td>46</td>
+                                                      <td>48</td>
+                                                      <td>50</td>
+                                                      <td>52</td>
+                                                  </tr>
+                                              </tbody>
+  
+                                          </table>
+                                      </div>
+                                  </div>
+  
+                              </div>
+  
+                          </div>
+                          
+  
+                      </div>
+                  </div>
+              
+              </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- // Modal da camiseta -->
+
+
+
+<section id="m-duvidas">
+	<div class="container">
+		<div class="row">
+
+
+            <!-- Emojis da esquerda -->
+            <div class="col-lg-2 col-md-2 emojis">
+                <img src="assets/images/emoj_01.png" data-scroll data-scroll-speed="3" class="img-fluid" alt="">
+                <img src="assets/images/estrelas_01.png" data-scroll data-scroll-speed="1" class="img-fluid"  alt="">
+            </div>
+
+            <!-- area das dúvidas -->
+            <div class="col-lg-8 col-md-8 box-duvidas" role="tablist" id="accordion">
+
+
+                
+
+                        <h2>Tire suas dúvidas</h2>
+
+  							    <!-- card -->
+                                  <div class="card">
+      
+                                    <!-- header card -->
+                                    <a data-toggle="collapse" href="#collapse-pane-1" role="button" aria-expanded="false" aria-controls="collapse-pane-1" class="collapsed">
+                                        <div class="card-header" role="tab" id="area-1">
+                                            <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-md-12">
+                                                    <h4>Inscrição</h4>
+                                                  </div>
+                                            </div>				          
+                                        </div>
+                                    </a>
+                                    <!-- // header card -->
+                    
+                                    <!-- card conteudo -->
+                                    <div id="collapse-pane-1" class="collapse" role="tabpanel" aria-labelledby="area-1">	    	
+                                        <div class="card-body">
+                                            <div role="tablist">
+                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-1-1">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-1-1" role="button" aria-expanded="false" aria-controls="collapse-pane-1-1">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Há alguma restrição de idade para participar?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-1-1" class="collapse" role="tabpanel" aria-labelledby="area-1-1">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Não, não existe nenhuma restrição. Aceitamos Chapolins de todas as idades 🙂</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-1-2">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-1-2" role="button" aria-expanded="false" aria-controls="collapse-pane-1-2">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Existe algum desconto para idosos?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-1-2" class="collapse" role="tabpanel" aria-labelledby="area-1-2">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim, para saber mais envie um e-mail com a foto da identidade para </span><span style="font-weight: 400;">contato@corridadochapolin.com.br</span><span style="font-weight: 400;">.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-1-3">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-1-3" role="button" aria-expanded="false" aria-controls="collapse-pane-1-3">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Grávidas e pessoas com deficiências físicas podem participar? </h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-1-3" class="collapse" role="tabpanel" aria-labelledby="area-1-3">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim, nossos circuitos são acessíveis e pode ser percorridos no tempo de cada um. </span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">	
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-1-4">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-1-4" role="button" aria-expanded="false" aria-controls="collapse-pane-1-4">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Como confirmo o meu horário de largada?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-1-4" class="collapse" role="tabpanel" aria-labelledby="area-1-4">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Você escolhe o seu horário no momento da inscrição. Quando for retirar o kit da corrida, não deixe de conferir a hora marcada para a sua bateria. Caso precise alterar o horário escolhido, envie um e-mail até sete dias antes da prova para</span><span style="font-weight: 400;"> contato@corridadochapolin.com.br</span><span style="font-weight: 400;">, informando sua necessidade de alteração. A mudança só é feita se houver disponibilidade.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-1-5">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-1-5" role="button" aria-expanded="false" aria-controls="collapse-pane-1-5">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Posso me inscrever no dia do evento?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-1-5" class="collapse" role="tabpanel" aria-labelledby="area-1-5">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Se houver vagas disponíveis, sim. Basta ir até a tenda de inscrições. Só é importante lembrar que as inscrições feitas no dia são limitadas de acordo com essa disponibilidade e devem ser pagas na hora, exclusivamente com </span><span style="font-weight: 400;">cartão de crédito ou débito</span><span style="font-weight: 400;">.&nbsp;</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /card -->    			
+                
+                                                <!-- card -->
+                                <div class="card">
+                      
+                                    <!-- header card -->
+                                    <a data-toggle="collapse" href="#collapse-pane-2" role="button" aria-expanded="false" aria-controls="collapse-pane-2" class="collapsed">
+                                        <div class="card-header" role="tab" id="area-2">
+                                            <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-md-12">
+                                                    <h4>Times e equipes</h4>
+                                                  </div>
+                                            </div>				          
+                                        </div>
+                                    </a>
+                                    <!-- // header card -->
+                    
+                                    <!-- card conteudo -->
+                                    <div id="collapse-pane-2" class="collapse" role="tabpanel" aria-labelledby="area-2">	    	
+                                        <div class="card-body">
+                                            <div role="tablist">
+                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-2-1">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-2-1" role="button" aria-expanded="false" aria-controls="collapse-pane-2-1">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>O que são as equipes?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-2-1" class="collapse" role="tabpanel" aria-labelledby="area-2-1">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Equipes são uma forma divertida, e sem custos adicionais, de correr com sua família e amigos. Não existe um número mínimo e máximo de membros.&nbsp;</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-2-2">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-2-2" role="button" aria-expanded="false" aria-controls="collapse-pane-2-2">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5> Existe um preço especial?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-2-2" class="collapse" role="tabpanel" aria-labelledby="area-2-2">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Temos políticas especiais para grupos com mais de 10 pessoas. Se for esse o seu caso, escreva para contato@corridadochapolin.com.br</span><span style="font-weight: 400;">.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-2-3">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-2-3" role="button" aria-expanded="false" aria-controls="collapse-pane-2-3">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Existe um número mínimo ou máximo de pessoas para criar uma equipe? </h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-2-3" class="collapse" role="tabpanel" aria-labelledby="area-2-3">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Não, o time pode ter o tamanho que você quiser.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">	
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-2-4">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-2-4" role="button" aria-expanded="false" aria-controls="collapse-pane-2-4">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Todos os membros do time têm que correr ao mesmo tempo?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-2-4" class="collapse" role="tabpanel" aria-labelledby="area-2-4">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Não, eles podem correr em qualquer horário aberto em que queiram se registrar.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-2-5">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-2-5" role="button" aria-expanded="false" aria-controls="collapse-pane-2-5">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>As equipes podem usar fantasias ou trajes?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-2-5" class="collapse" role="tabpanel" aria-labelledby="area-2-5">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim, nós inclusive incentivamos! Quanto mais engraçado, melhor!</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /card -->    			
+                
+                                                <!-- card -->
+                                <div class="card">
+                      
+                                    <!-- header card -->
+                                    <a data-toggle="collapse" href="#collapse-pane-3" role="button" aria-expanded="false" aria-controls="collapse-pane-3" class="collapsed">
+                                        <div class="card-header" role="tab" id="area-3">
+                                            <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-md-12">
+                                                    <h4>Transferências após a compra</h4>
+                                                  </div>
+                                            </div>				          
+                                        </div>
+                                    </a>
+                                    <!-- // header card -->
+                    
+                                    <!-- card conteudo -->
+                                    <div id="collapse-pane-3" class="collapse" role="tabpanel" aria-labelledby="area-3">	    	
+                                        <div class="card-body">
+                                            <div role="tablist">
+                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-3-1">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-3-1" role="button" aria-expanded="false" aria-controls="collapse-pane-3-1">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Eu posso transferir minha inscrição para outro horário de largada? </h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-3-1" class="collapse" role="tabpanel" aria-labelledby="area-3-1">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim. Basta enviar uma mensagem para contato@corridadochapolin.com.br com a sua solicitação. Mas é necessário fazer o pedido de transferência com, no máximo, sete dias de antecedência do evento, e a troca estará sujeita à disponibilidade de vagas.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">	
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-3-2">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-3-2" role="button" aria-expanded="false" aria-controls="collapse-pane-3-2">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Eu posso transferir minha inscrição para outro participante?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-3-2" class="collapse" role="tabpanel" aria-labelledby="area-3-2">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim. Basta enviar uma mensagem para contato@corridadochapolin.com.br com a sua solicitação. Mas é necessário fazer o pedido de transferência com, no máximo, sete dias de antecedência do evento, e a troca estará sujeita à disponibilidade de vagas.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">				            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /card -->    			
+                
+                                                <!-- card -->
+                                <div class="card">
+                      
+                                    <!-- header card -->
+                                    <a data-toggle="collapse" href="#collapse-pane-4" role="button" aria-expanded="false" aria-controls="collapse-pane-4" class="collapsed">
+                                        <div class="card-header" role="tab" id="area-4">
+                                            <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-md-12">
+                                                    <h4>Retirada de kits</h4>
+                                                  </div>
+                                            </div>				          
+                                        </div>
+                                    </a>
+                                    <!-- // header card -->
+                    
+                                    <!-- card conteudo -->
+                                    <div id="collapse-pane-4" class="collapse" role="tabpanel" aria-labelledby="area-4">	    	
+                                        <div class="card-body">
+                                            <div role="tablist">
+                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-4-1">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-4-1" role="button" aria-expanded="false" aria-controls="collapse-pane-4-1">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5> Onde é feita a retirada dos kits?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-4-1" class="collapse" role="tabpanel" aria-labelledby="area-4-1">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">O local e a data da entrega dos kits serão divulgados via e-mail marketing, no site e nas redes sociais da corrida na segunda-feira que antecede o evento. </span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-4-2">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-4-2" role="button" aria-expanded="false" aria-controls="collapse-pane-4-2">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Eu posso retirar o kit de outra pessoa?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-4-2" class="collapse" role="tabpanel" aria-labelledby="area-4-2">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim, mas você deve apresentar a cópia ou foto da identidade e comprovante de inscrição do participante.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-4-3">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-4-3" role="button" aria-expanded="false" aria-controls="collapse-pane-4-3">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Eu posso retirar o kit na arena?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-4-3" class="collapse" role="tabpanel" aria-labelledby="area-4-3">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim. Contudo, será necessário pagar uma taxa extra de serviço.&nbsp;</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">	
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-4-4">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-4-4" role="button" aria-expanded="false" aria-controls="collapse-pane-4-4">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Posso escolher o tamanho da minha camisa?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-4-4" class="collapse" role="tabpanel" aria-labelledby="area-4-4">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">No ato da inscrição você pode indicar o tamanho da sua preferência. Contudo, nos resguardamos ao direito de não ter todos os tamanhos disponíveis, pois podem ocorrer variações não programadas em nosso estoque.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-4-5">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-4-5" role="button" aria-expanded="false" aria-controls="collapse-pane-4-5">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Vocês podem me enviar minha medalha/camiseta?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-4-5" class="collapse" role="tabpanel" aria-labelledby="area-4-5">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Você pode optar por receber o kit em casa, basta pagar uma taxa extra de entrega. A medalha não é entregue junto com o kit. Ela deve ser retirada logo após a prova, não podemos enviá-las. </span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /card -->    			
+                
+                                                <!-- card -->
+                                <div class="card">
+                      
+                                    <!-- header card -->
+                                    <a data-toggle="collapse" href="#collapse-pane-5" role="button" aria-expanded="false" aria-controls="collapse-pane-5">
+                                        <div class="card-header" role="tab" id="area-5">
+                                            <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-md-12">
+                                                    <h4>Dia do evento</h4>
+                                                  </div>
+                                            </div>				          
+                                        </div>
+                                    </a>
+                                    <!-- // header card -->
+                    
+                                    <!-- card conteudo -->
+                                    <div id="collapse-pane-5" class="collapse" role="tabpanel" aria-labelledby="area-5">	    	
+                                        <div class="card-body">
+                                            <div role="tablist">
+                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-5-1">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-5-1" role="button" aria-expanded="false" aria-controls="collapse-pane-5-1">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Existe limite de tempo para a realização da corrida?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-5-1" class="collapse" role="tabpanel" aria-labelledby="area-5-1">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Não, a ideia é que cada um consiga concluir a prova no seu tempo, superando seus próprios limites.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-5-2">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-5-2" role="button" aria-expanded="false" aria-controls="collapse-pane-5-2">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Espectadores podem assistir gratuitamente?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-5-2" class="collapse" role="tabpanel" aria-labelledby="area-5-2">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim, o público é bem-vindo nas nossas arenas, mas o acesso aos espaços e às facilidades específicas para corredores só são permitidos para quem está inscrito na prova.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">	
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-5-3">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-5-3" role="button" aria-expanded="false" aria-controls="collapse-pane-5-3">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Eu vou receber um guia de participante?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-5-3" class="collapse" role="tabpanel" aria-labelledby="area-5-3">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Sim, os guias de participantes serão enviados na segunda-feira anterior ao evento, via e-mail. Esses guias contém todas as informações relativas a estacionamento, especificidades do local, os preparativos para a prova e muito mais. Eles também serão postados no nosso site na semana da prova.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-5-4">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-5-4" role="button" aria-expanded="false" aria-controls="collapse-pane-5-4">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>O evento será cancelado por mau tempo?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-5-4" class="collapse" role="tabpanel" aria-labelledby="area-5-4">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">A corrida acontece faça chuva ou faça sol. Em caso de tempestade de raios ou outras condições extremas, o evento será postergado até que o tempo melhore, adiado para o próximo dia, reagendado para outro dia ou, até mesmo, cancelado.&nbsp; Em situações extremas (como, por exemplo, tempestade de raios), nos reservamos o direito de alterar componentes do evento e percurso, por razões de segurança. Além do mais, é possível que optemos por não realizar o evento. Qualquer decisão neste sentido é tomada para garantir a segurança no percurso, e é feita em comum acordo com a equipe de gerenciamento de risco, polícia, bombeiros e autoridade médica local. Nos reservamos o direito de retirar qualquer obstáculo para garantir a segurança do percurso e dos corredores.</span><b> &nbsp; &nbsp; &nbsp; </b></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">				            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /card -->    			
+                
+                                                <!-- card -->
+                                <div class="card">
+                      
+                                    <!-- header card -->
+                                    <a data-toggle="collapse" href="#collapse-pane-6" role="button" aria-expanded="false" aria-controls="collapse-pane-6">
+                                        <div class="card-header" role="tab" id="area-6">
+                                            <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-md-12">
+                                                    <h4>Ter a corrida perto de você</h4>
+                                                  </div>
+                                            </div>				          
+                                        </div>
+                                    </a>
+                                    <!-- // header card -->
+                    
+                                    <!-- card conteudo -->
+                                    <div id="collapse-pane-6" class="collapse" role="tabpanel" aria-labelledby="area-6">	    	
+                                        <div class="card-body">
+                                            <div role="tablist">
+                
+                                                    
+                
+                                                <div class="card col-lg-12 col-md-12 col-sm-12">
+                                                      
+                                                    <!-- card 1.1 header -->
+                                                    <div class="card-header-sub" role="tab" id="area-6-1">
+                                                        <div class="col-12">
+                                                            <!-- Acora: #collapse-pane-1-1 -->
+                                                            <a class="collapsed" data-toggle="collapse" href="#collapse-pane-6-1" role="button" aria-expanded="false" aria-controls="collapse-pane-6-1">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-subcard">
+                                                                          <h5>Eu posso trazer a corrida para a minha cidade?</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>           
+                               
+                                                    <!-- card 1.1 conteudo - Ancora: #collapse-pane-1-1 -->
+                                                    <div id="collapse-pane-6-1" class="collapse" role="tabpanel" aria-labelledby="area-6-1">
+                                                        <div class="card-body">
+                                                            <!-- item do subcard -->
+                                                            <div class="row subcard">
+                                                                <div class="col-lg-12 col-md-12 dados-subcard">
+                                                                    <p><span style="font-weight: 400;">Se você está em busca de diversão, sugira novos locais para a nossa corrida. Se você acha que a sua cidade se encaixa perfeitamente no nosso formato, mande um e-mail para contato@corridadochapolin.com.br</span><span style="font-weight: 400;">.</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- / item do subcard -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div></div><div class="card-body"><div role="tablist">				            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /card -->    			
+    
+                
+            </div>
+
+            <!-- Emojis da direita -->
+            <div class="col-lg-2 col-md-2 emojis">
+                <img src="assets/images/estrelas_02.png" data-scroll data-scroll-speed="1" class="img-fluid"  alt="">
+                <img src="assets/images/emoj_02.png" data-scroll data-scroll-speed="3" class="img-fluid"  alt="">
+            </div>
+
+		</div>
+	</div>
+</section>
+
+
+<section id="m-contato">
+    <div class="separador-fa">
+        <svg width="1918" height="223" viewBox="0 0 1918 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1918 0H1.70711e-05L0 115L9.44166e-06 223L383.203 142.6L1165.49 206.2L1910.83 123H1918V122.2V0Z" fill="white"/>
+        </svg>          
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <img src="assets/images/lol_dobra_04.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <h2>Precisa de ajuda? </h2>
+                <div class="formulario">
+                    <!-- area do contact form -->                    
+                    <form action="">
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <textarea placeholder="Mensagem"></textarea>
+                        <input type="submit" class="bto_enviar" value="Enviar >">                      
+                    </form>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="separador-fb">
+        <svg width="1919" height="218" viewBox="0 0 1919 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 108L753.507 16.8L1535.8 80.3999L1919 0V108V218H1V108H0.5Z" fill="white"/>
+        </svg>             
+           
+    </div>    
+</section>
+
+
+<!-- Essa dobra tem que integrar com o plug-in do instragram no Wordpress -->
+<section id="instragram">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2>Siga-nos no Instagram</h2>
+                <div class="box-insta">
+                    [Shortcode do instagram]
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+            
+            <div class="col-lg-12 col-md-12 box-footer">
+                
+                <img src="assets/images/logo_lol_mga.png" alt="LOL Surprise! MGA">
+
+				<ul class="redes">
+					<li>
+						<a href="#" target="_blank">
+							<img src="assets/images/rede_facebook.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="assets/images/rede_instagram.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="assets/images/rede_email.svg" alt="">
+						</a>
+					</li>					
+                </ul>
+
+				<ul class="menu">
+					<li><a href="#m-duvidas">Faq</a></li>
+					<li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+				</ul>
+				
+                <div class="realizacao">
+                    <h5>Realização</h5>
+                    <a href="https://pontoorgeventos.com.br" class="logo-org" target="_blank">
+                        <img src="assets/images/logo_org_eventos.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-12 col-md-12 text-center">
+                <span>© MGA Entertainment, Inc. L.O.L. SURPRISE!™ is a trademark of MGA in the U.S. and other countries.</span>
+            </div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- fecha // data-scroll-area -->
+</div>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+<!-- polyfill para converter JS em versão antiga -->
+<script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
+<script nomodule src="https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script>
+<script src="assets/js/locomotive-scroll.min.js"></script>
+<script>
+window.onload = function(){
+
+    // pega a largura da tela
+    //var windowWidth = window.innerWidth;
+    var screenWidth = screen.width;
+    //alert(screenWidth);
+
+    // inicializa locomoticescroll para telas maiores que 992px
+    if(screenWidth >= 992){
+        const lscroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+            multiplier: 1
+            //offset: ["30%", 100]
+            //repeat: true,
+            //lerp: 0.1
+            //velocidade do scroll no firefox até 50
+            //firefoxMultiplier: 30
+        });
+    }
+}
+</script>
+    
+</body>
+</html>

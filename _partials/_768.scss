@@ -1,0 +1,118 @@
+/*
+=====================================================
+Meida Queries  768px
+=====================================================
+*/
+
+
+@media (min-width: 768px) {
+
+
+    #m-conheca{
+        .box-conteudo{
+            h2{
+                font-size: 52px;
+                line-height: 54px;                
+            }
+        }     
+    }
+
+    #m-diversao{
+        padding: 170px 40px 60px;
+        .box-conteudo{
+            padding: 0; 
+            h3{
+                font-size: 18px;
+                line-height: 32px; 
+            }
+            h2{
+                font-size: 52px;
+                line-height: 54px;
+            }
+            img{
+                margin-top: 0;
+            }
+        }
+        .bloco-venda{
+            padding: 30px 60px;
+        }
+        .box-camisetas{
+            span{
+                position: relative;
+                bottom: 0;                     
+            }            
+        }
+    }
+
+    #m-duvidas{
+        padding: 60px 40px;
+        .emojis{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-header{
+            padding: 20px 0 8px;
+            h4{
+                font-size: 30px;
+                font-weight: 800;
+                letter-spacing: 2.79px;
+            }        
+        }   
+        .col-subcard h5{
+            font-size: 24px;
+            line-height: 28px;            
+        }
+        .dados-subcard p{
+            font-size: 18px;
+            line-height: 28px;
+        }                          
+    }
+    #m-contato{
+        padding: 170px 40px 60px;
+        
+        .separador-fa{
+            svg{
+                width: 100%;
+                height: auto;
+            }
+        }        
+        
+
+        h2{
+            font-size: 52px;
+            line-height: 54px;
+        }        
+
+    }
+    #instragram{
+        font-size: 52px;
+        line-height: 54px;
+    }
+
+
+}
+// 768px
+
+
+
+@media (min-height: 768px) {
+    #content-header{
+        top: 260px;
+    }
+    #m-conheca{
+        padding: 90px 0 0;
+    }  
+}
+
+@media (min-height: 812px) {
+    #m-conheca {
+        padding: 230px 0 0;
+    }
+}
+
+@media (min-height: 1280px) {
+    #m-conheca {
+        padding: 90px 0 0;
+    }
+}

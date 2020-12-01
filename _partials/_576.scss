@@ -1,0 +1,34 @@
+/*
+=====================================================
+Meida Queries  576px
+=====================================================
+*/
+
+@media (min-width: 576px) {
+
+    header{
+        .row-menu{
+            nav {
+                ul{
+                    li:last-child{
+                        a{
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer{
+        .box-footer{   
+            img{
+                width: min-content;
+            }
+        }
+    }
+
+}
+// 576px
+

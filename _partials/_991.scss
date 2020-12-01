@@ -1,0 +1,174 @@
+/*
+=====================================================
+Meida Queries  991px
+=====================================================
+*/
+
+
+@media (min-width: 991px) {
+
+    #pg-politica{
+        .row-menu{
+            .logo img {
+                width: 268px;
+            }
+            .close{
+                margin-top: 20px;
+            }
+        }
+    }
+    #box-politica{
+        .container-fluid{
+            .row{
+                width: 80%;
+                padding: 0 60px 60px 60px;
+                
+                h1{
+                    font-weight: bold;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }    
+
+    header{
+      
+        .row-menu{
+            width: 85%;
+            .logo{
+                img{
+                    width: 268px;
+                    //margin-top: 80px; 
+                }
+            }            
+            nav{
+                display: inline-block;
+                grid-template-columns: 30%;
+                padding: 0;
+
+                .menu {
+                    display: none;
+                }
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    margin-top: 0;
+                    position: initial;
+                    background-color: initial;
+                    padding: 0;
+
+                    &:after{
+                        display: none;
+                    }
+
+                    li{
+                        margin-right: 14px;
+                    }
+                    li:last-child {
+                        margin-right: 0;
+                    }                    
+                    li a {
+                        display: block;
+                        padding: 5px 10px;
+                        color: var(--preto);
+                        text-align: center;
+                        text-decoration: none;
+                        &a:hover {
+                            color: var(--marron_hover);
+                        }
+                        &:last-child{
+                            width: 100%;
+                            margin: 0; 
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    #content-header{
+        flex-direction: row;
+        padding: 0 3% 0 10%;
+
+        .box-title{
+            width: 30%;
+            order: 0;
+            h2{
+                font-size: 50px;
+                line-height: 48px;
+            }            
+        }
+        .box-image{
+            width: 70%;
+            order: 1;
+        }               
+    }
+
+    #m-conheca{
+        img{
+            margin-bottom: 0;
+            margin-top: -60px;
+
+        }  
+    }
+
+    #m-contato{
+        img{
+            margin-top: -80px;
+            margin-bottom: 0;
+        }        
+    }
+
+    #m-diversao{
+        .box-conteudo{
+            img{
+                margin-top: 0;
+            }
+        }
+    }
+
+    footer{
+        padding: 15px 0 48px 0;
+        .box-footer{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .redes{
+            margin: 30px 40px 0 60px;
+            li{
+                padding-right: 24px;
+                &a:hover{
+                    text-decoration: none;
+                  }                
+              }            
+        }
+        .menu{
+            flex-direction: row;
+            align-items: flex-start;
+            margin: 30px 0 0 0;
+            li{
+                margin-right: 30px;
+                margin-bottom: 0;
+            }            
+        } 
+        .realizacao{
+            align-items: flex-start;
+        }                          
+        
+    }
+
+}
+// 991px
+
+
+
+
+@media (min-width: 1170px) {
+    header{
+        
+        .row-menu{
+            width: 70%;
+        }
+    }
+}
